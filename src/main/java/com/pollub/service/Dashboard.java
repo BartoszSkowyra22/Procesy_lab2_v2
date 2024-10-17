@@ -1,16 +1,9 @@
-package com.pollub;
-
-import com.pollub.service.Dashboard;
+package com.pollub.service;
 
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
-
-        Dashboard dashboard = new Dashboard();
-        dashboard.run();
-
-
+public class Dashboard {
+    public void run(){
         Scanner scanner = new Scanner(System.in);
         int choice;
 
