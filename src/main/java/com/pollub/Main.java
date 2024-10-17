@@ -9,7 +9,7 @@ public class Main {
 
         Dashboard dashboard = new Dashboard();
         dashboard.run();
-
+        System.out.println("hsusd");
 
         Scanner scanner = new Scanner(System.in);
         int choice;
